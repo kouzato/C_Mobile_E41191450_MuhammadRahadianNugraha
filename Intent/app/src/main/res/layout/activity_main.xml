@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:padding="16dp"
     android:orientation="vertical"
-    android:background="@color/black">
+    android:background="@color/Black">
 
 
     <Button
@@ -16,6 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="@string/move_activity"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
         />
 
     <Button
@@ -23,56 +25,72 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Pindah Activity Dengan Data" />
+        android:text="Pindah Activity Dengan Data"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_move_activity_object"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Pindah Activity Dengan Object" />
+        android:text="Pindah Activity Dengan Object"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_dial_a_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Dial a Number" />
+        android:text="Dial a Number"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_maps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Intent Maps ( ke arah POLIJE )" />
+        android:text="Intent Maps ( ke arah POLIJE )"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_share_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Intent Share Text" />
+        android:text="Intent Share Text"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_sms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Intent Kirim SMS" />
+        android:text="Intent Kirim SMS"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Ambil Kontak Phone" />
+        android:text="Ambil Kontak Phone"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <Button
         android:id="@+id/btn_activity_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Pindah Activity Result" />
+        android:text="Pindah Activity Result"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
 
     <TextView
         android:id="@+id/textViewResult"
