@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tx_title_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:text="@string/masuk"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/tx_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/masuk_akun_anda_untuk_lanjut"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/tx_title_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:text="@string/username"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textSize="12sp"
+        android:inputType="text"
+        android:hint="@string/masukkan_username_anda" />
+
+    <TextView
+        android:id="@+id/tx_title_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:text="@string/password"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textSize="12sp"
+        android:inputType="textPassword"
+        android:hint="@string/masukkan_password_anda" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="@string/login"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tx_login_disini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/belum_punya_akun_daftar_disini" />
+
+</LinearLayout>
